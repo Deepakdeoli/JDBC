@@ -12,7 +12,7 @@ public class imageinsert {
                     "\"C:\\Users\\Pukhraj Singh Gurjar\\Desktop\\'\\JDBC\\DSC_0296.JPG\"");
             pstmt.setBinaryStream(1, fis, fis.available());
             pstmt.executeUpdate();
-            System.out.println("Done.....");
+            System.out.println("Done...");
 
         } catch (Exception e) {
             System.out.println("Error...!!");
